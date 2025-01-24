@@ -1,0 +1,21 @@
+image: ruby:3.2
+
+variables:
+  JEKYLL_ENV: production
+
+cache:
+  paths:
+    - vendor/ruby/
+
+before_script:
+  - gem install bundler
+  - bundle install
+
+pages:
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
