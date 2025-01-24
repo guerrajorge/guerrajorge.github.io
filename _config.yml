@@ -1,0 +1,8 @@
+title: Jorge Guerra Landing Page 
+description: A place where Jorge Guerra drops all this notes and projects
+google_analytics: 
+show_downloads: true 
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
