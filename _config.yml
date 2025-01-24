@@ -2,6 +2,8 @@ title: Jorge Guerra Landing Page
 description: A place where Jorge Guerra drops all this notes and projects
 google_analytics: 
 show_downloads: true 
+theme: jekyll-theme-cayman
+
 
 plugins:
   - jekyll-include-cache
